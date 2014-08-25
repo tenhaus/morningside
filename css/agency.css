@@ -9,19 +9,7 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.morning-bg-red {
-    background-color: #6c0322;
-}
 
-.page-video {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#mentors {
-    background-color: #fff;
-}
 
 .text-muted {
     color: #777;
@@ -222,6 +210,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     /*text-transform: uppercase;*/
     font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
     font-weight: 400;
     letter-spacing: 1px;
     color: #242424;
