@@ -2,16 +2,32 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+
 		connect: {
-			example: {
-				port: 8080,
-				base: '.'
+			server: {
+				options: {}
 			}
-		}
+		},
+
+		watch: {
+			options: {
+				livereload: true,
+			},
+			files: ['css/**/*.css', 'index.html'],
+		},
+
+		reload: {
+        port: 8000,
+        proxy: {
+            host: 'localhost',
+        }
+    },
+
 	});
 
-	grunt.loadNpmTasks('grunt-connect');
-	grunt.registerTask('default', 'connect:example');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-contrib-connect');
+
+	grunt.registerTask('default', ['connect', 'watch']);
 
 };
