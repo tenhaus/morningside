@@ -93,6 +93,7 @@ header {
 }
 
 section {
+  background-color: @brand-primary;
   border-top: 5px solid black;
   padding: 0px;
 
@@ -139,6 +140,8 @@ section {
 }
 
 section.alt {
+  background-color: white;
+
   h2.section-heading {
     color: @brand-primary;
   }
@@ -147,13 +150,17 @@ section.alt {
   }
 }
 
-#mentorship {
-
-  .container {
-    background-color: @brand-primary;
-    .section-head {
-
-    }
+.team-member {
+  h4 {
+    color: @brand-secondary;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: normal;
   }
-
+  p {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.2em;
+  }
 }

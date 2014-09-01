@@ -69,6 +69,7 @@ header .mix-slider .slide.center {
   background-color: #6c0322;
 }
 section {
+  background-color: #6c0322;
   border-top: 5px solid black;
   padding: 0px;
 }
@@ -111,12 +112,24 @@ section .section-footer p {
 section .section-footer span {
   color: #fab439;
 }
+section.alt {
+  background-color: white;
+}
 section.alt h2.section-heading {
   color: #6c0322;
 }
 section.alt span.section-body {
   color: black;
 }
-#mentorship .container {
-  background-color: #6c0322;
+.team-member h4 {
+  color: #fab439;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.team-member p {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.2em;
 }
