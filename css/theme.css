@@ -126,10 +126,14 @@ section.alt span.section-body {
   margin-bottom: 5px;
   font-size: 14px;
   font-weight: normal;
+  margin-top: 10px;
 }
 .team-member p {
   color: white;
   margin: 0px;
   padding: 0px;
   line-height: 1.2em;
+}
+.team-member img {
+  border: none;
 }
