@@ -137,3 +137,19 @@ section.alt span.section-body {
 .team-member img {
   border: none;
 }
+footer {
+  border-top: 10px solid #6c0322;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+footer h4 {
+  text-transform: none;
+}
+footer p {
+  margin: 0px;
+  line-height: 1.5em;
+}
+footer p.title {
+  font-size: 1.5em;
+}
