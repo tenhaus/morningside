@@ -111,6 +111,12 @@ section .section-footer p {
 section .section-footer span {
   color: #fab439;
 }
+section.alt h2.section-heading {
+  color: #6c0322;
+}
+section.alt span.section-body {
+  color: black;
+}
 #mentorship .container {
   background-color: #6c0322;
 }
