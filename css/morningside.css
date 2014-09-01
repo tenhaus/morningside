@@ -18,3 +18,28 @@
 .navbar-header {
   background-color: #fff;
 }
+
+.navbar-nav {
+  margin-top: -15px;
+  font-size: 10px;
+}
+
+.nav li a {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.nav li span {
+  padding-left: 0px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #242424;
+  position: relative;
+  display: block;
+}
