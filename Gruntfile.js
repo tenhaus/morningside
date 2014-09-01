@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 				livereload: true,
 			},
 			files: ['less/**/*.less', 'index.html'],
-			tasks: 'less',
+			tasks: 'less:development',
 		},
 
 		reload: {
@@ -27,10 +27,11 @@ module.exports = function(grunt) {
 		less: {
 			development: {
 				options: {
-					paths: ['less']
+					paths: ['less'],
 				},
 				files: {
-					'css/morningside.css' : 	'less/morningside.less'
+					'css/template.css' : 	'less/template.less',
+					'css/theme.css' : 	'less/theme.less',
 				}
 			}
 		},
