@@ -13,7 +13,8 @@ module.exports = function(grunt) {
 			options: {
 				livereload: true,
 			},
-			files: ['css/**/*.css', 'index.html'],
+			files: ['less/**/*.less', 'index.html'],
+			tasks: 'less',
 		},
 
 		reload: {
@@ -23,11 +24,23 @@ module.exports = function(grunt) {
         }
     },
 
+		less: {
+			development: {
+				options: {
+					paths: ['less']
+				},
+				files: {
+					'css/morningside.css' : 	'less/morningside.less'
+				}
+			}
+		},
+
 	});
 
+	grunt.loadNpmTasks('grunt-contrib-less');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
-	grunt.registerTask('default', ['connect', 'watch']);
+	grunt.registerTask('default', ['less', 'connect', 'watch']);
 
 };

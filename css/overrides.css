@@ -1,0 +1,58 @@
+.morning-bg-red {
+    background-color: #6c0322;
+}
+
+.header-stripe {
+  height: 10px;
+}
+.page-video {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mentors {
+    background-color: #fff;
+}
+
+.navbar {
+    border-top: 10px solid #6c0322;
+    border-bottom: 5px solid #000;
+}
+
+.navbar-default {
+  padding: 0px;
+}
+
+.navbar-header {
+  background-color: #fff;
+}
+
+.navbar-nav {
+  margin-top: -15px;
+  font-size: 10px;
+}
+
+.nav li a {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+.nav li span {
+  padding-left: 0px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #242424;
+  position: relative;
+  display: block;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
