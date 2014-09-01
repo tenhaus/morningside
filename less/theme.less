@@ -25,6 +25,11 @@
   .navbar-brand {
     padding: 10px 15px;
   }
+  .navbar-nav>.active>a {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
 }
 
 .navbar-default.navbar-shrink {
@@ -85,4 +90,62 @@ header {
       background-color: @brand-primary;
     }
   }
+}
+
+section {
+  border-top: 5px solid black;
+  padding: 0px;
+
+  .container {
+    padding-top: 50px;
+  }
+  h2.section-heading {
+    color: white;
+    text-transform: none;
+    font-weight: normal;
+    .body-font;
+    margin-bottom: 5px;
+  }
+  h3.section-subheading {
+    color: @brand-secondary;
+    .body-font;
+    font-size: 20px;
+    font-style: normal;
+    margin: 5px;
+  }
+  span.section-body {
+    color: white;
+    font-weight: normal;
+    // width: 50%;
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+  .section-footer {
+    min-height: 50px;
+    line-height: 50px;
+    background-color: @brand-ternary;
+
+    p {
+      line-height: 1.5em;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      padding: 10px;
+      margin: 0px;
+    }
+    span {
+      color: @brand-secondary;
+    }
+  }
+}
+
+#mentorship {
+
+  .container {
+    background-color: @brand-primary;
+    .section-head {
+
+    }
+  }
+
 }
