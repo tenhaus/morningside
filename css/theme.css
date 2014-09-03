@@ -62,3 +62,9 @@ section p.section-body {
 section#contact .form-group input.form-control {
   height: auto;
 }
+.page-video {
+  border: 1px solid whitesmoke;
+}
+.page-video-actual {
+  border: 1px solid gray;
+}
