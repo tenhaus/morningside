@@ -2,6 +2,9 @@
   margin: 0 auto;
   padding: 0 30px;
 }
+body {
+  font-family: "PT Sans", Arial;
+}
 header {
   background-image: none;
   margin-top: 140px;
@@ -39,12 +42,23 @@ header .mix-slider .slide.center {
 .navbar-shrink .navbar-collapse > .nav > li > a {
   color: white;
 }
+.team-member p {
+  margin: 2px 0px;
+}
 section h2.section-heading {
-  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", serif;
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 40px;
+  font-weight: normal;
 }
-section span.section-body {
-  font-size: 20px;
+section p.section-body {
+  text-align: center;
+  margin: 30px auto;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #555;
+}
+section#contact .form-group input.form-control {
+  height: auto;
 }

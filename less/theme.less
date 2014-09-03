@@ -7,16 +7,20 @@
     // width: 400px;
 }
 
+body {
+    .body-font;
+}
+
 header {
-    
+
     background-image: none;
     margin-top: 140px;
-  
+
     .mix-slider {
       display: none;
       line-height: @slider-height;
       background-color: #222;
-    
+
     p {
       font-size: 30px;
       display: inline-block;
@@ -53,18 +57,32 @@ header {
     .navbar-collapse>.nav>li>a {color:white;}
 }
 
+.team-member p {
+  margin: 2px 0px;
+}
 
 
 section {
     // margin-top: 100px;
     h2.section-heading {
-        .body-font;
+        .serif-font;
         margin-top: 0;
         margin-bottom: 15px;
         font-size: 40px;
+        font-weight: normal;
     }
-    
-    span.section-body {
-        font-size: 20px;
+
+    p.section-body {
+      // width: 500px;
+      text-align: center;
+      margin: 30px auto;
+      margin-bottom: 50px;
+      font-size: 16px;
+      color: #555;
     }
+
+}
+
+section#contact .form-group input.form-control {
+height: auto;
 }

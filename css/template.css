@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans", Arial;
 }
 .text-muted {
   color: #777777;
@@ -234,7 +234,7 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -254,7 +254,7 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Rokkitt", serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
@@ -279,7 +279,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -346,7 +346,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -664,7 +664,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Rokkitt", serif;
   font-style: italic;
   font-size: 16px;
 }
