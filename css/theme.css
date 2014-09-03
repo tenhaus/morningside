@@ -1,5 +1,6 @@
 .logo {
   margin: 0 auto;
+  padding: 0 30px;
 }
 header {
   background-image: none;
@@ -40,6 +41,10 @@ header .mix-slider .slide.center {
 }
 section h2.section-heading {
   font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 85px;
-  font-size: 85px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+section span.section-body {
+  font-size: 20px;
 }
