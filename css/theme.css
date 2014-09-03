@@ -1,10 +1,9 @@
 .logo {
-  margin: 30px auto;
-  padding: 0 30px;
-  width: 400px;
+  margin: 0 auto;
 }
 header {
   background-image: none;
+  margin-top: 140px;
 }
 header .mix-slider {
   display: none;
@@ -25,4 +24,11 @@ header .mix-slider .slide span {
 }
 header .mix-slider .slide.center {
   background-color: #6c0322;
+}
+.navbar-default .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
 }
