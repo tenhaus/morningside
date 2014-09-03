@@ -1,6 +1,10 @@
 @import "variables.less";
 @import "mixins.less";
 
+header {
+  margin-top: 140px;
+}
+
 .navbar-default {
 
   padding: 10px;
@@ -102,20 +106,38 @@ section {
   }
 
   h2.section-heading {
-    color: white;
-    text-transform: none;
-    font-weight: normal;
-    .body-font;
-    margin-bottom: 5px;
-  }
-  h3.section-subheading {
-    color: @brand-secondary;
-    .body-font;
-    font-size: 20px;
-    font-style: normal;
-    margin: 5px;
-  }
+      .body-font;
+      margin-top: 0;
+      margin-bottom: 0px;
+      font-size: 50px;
+      font-weight: normal;
+      color: white;
+      text-transform: none;
+    }
+
+    h3.section-subheading {
+      color: @brand-secondary;
+      font-style: normal;
+      .body-font;
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-size: 24px;
+    }
+
+    p.section-body {
+      // width: 500px;
+      text-align: center;
+      margin: 0px auto;
+      font-size: 16px;
+      color: white;
+      font-weight: normal;
+      margin-bottom: 50px;
+      max-width: 500px;
+      line-height: 1em;
+    }
+
   span.section-body {
+
     color: white;
     font-weight: normal;
     display: inline-block;
@@ -142,6 +164,11 @@ section {
 
 section.alt {
   background-color: white;
+
+  p {
+    color: black;
+    margin-top: 5px;
+  }
 
   h2.section-heading {
     color: @brand-primary;

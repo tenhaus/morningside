@@ -1,3 +1,6 @@
+header {
+  margin-top: 140px;
+}
 .navbar-default {
   padding: 10px;
   background-color: white;
@@ -77,18 +80,31 @@ section .container {
   padding-top: 50px;
 }
 section h2.section-heading {
+  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-size: 50px;
+  font-weight: normal;
   color: white;
   text-transform: none;
-  font-weight: normal;
-  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 5px;
 }
 section h3.section-subheading {
   color: #fab439;
-  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
   font-style: normal;
-  margin: 5px;
+  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 24px;
+}
+section p.section-body {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+  margin-bottom: 50px;
+  max-width: 500px;
+  line-height: 1em;
 }
 section span.section-body {
   color: white;
@@ -114,6 +130,10 @@ section .section-footer span {
 }
 section.alt {
   background-color: white;
+}
+section.alt p {
+  color: black;
+  margin-top: 5px;
 }
 section.alt h2.section-heading {
   color: #6c0322;
