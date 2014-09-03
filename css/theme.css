@@ -32,3 +32,14 @@ header .mix-slider .slide.center {
   letter-spacing: 1px;
   color: black;
 }
+.navbar-shrink {
+  color: white;
+}
+.navbar-shrink .navbar-collapse > .nav > li > a {
+  color: white;
+}
+section h2.section-heading {
+  font-family: "Rokkitt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 85px;
+  font-size: 85px;
+}
