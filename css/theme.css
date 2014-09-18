@@ -156,6 +156,10 @@ section.alt span.section-body {
 }
 .team-member img {
   border: none;
+  max-width: 140px;
+}
+.team-member a {
+  color: white;
 }
 footer {
   border-top: 10px solid #6c0322;
