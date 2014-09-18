@@ -74,6 +74,9 @@ header .mix-slider .slide.center {
 #slider_stage {
   margin-top: 80px;
 }
+#infographic {
+  margin-bottom: 20px;
+}
 section {
   background-color: #6c0322;
   border-top: 5px solid black;
