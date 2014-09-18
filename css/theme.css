@@ -71,6 +71,9 @@ header .mix-slider .slide span {
 header .mix-slider .slide.center {
   background-color: #6c0322;
 }
+#slider_stage {
+  margin-top: 80px;
+}
 section {
   background-color: #6c0322;
   border-top: 5px solid black;
