@@ -22,18 +22,12 @@
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    
-    <script type="text/javascript" charset="utf-8" src="/js/infographic/MSIDE_INFOGRAPHIC_1_edgePreload.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/js/slider/MORNINGSIDE_edgePreload.js"></script>
-    
-    
+    <!-- 
     <style>
         .edgeLoad-EDGE-432563361 { visibility:hidden; }
         .edgeLoad-EDGE-12834085 { visibility:hidden; }
     </style>
-
-    <script src="//localhost:35729/livereload.js"></script>
-
+ -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -96,16 +90,15 @@
 
     </nav>
 
-    <!-- <header> -->
-      <!-- <div class="container-fluid"> -->
-          <!-- <div class="row"> -->
-              <!-- <div class="col-lg-12"> -->
-              
-                  <div id="slider_stage" class="EDGE-432563361"></div>
-              <!-- </div> -->
-          <!-- </div> -->
-      <!-- </div> -->
-    <!-- </header> -->
+    <header>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12 embed-responsive embed-responsive-16by9">
+                  <iframe src="slider/web/MORNINGSIDE.html" class="embed-responsive-item" width="980" marginwidth="0" height="350" marginheight="0" scrolling="no" frameborder="0"> </iframe>
+              </div>
+          </div>
+      </div>
+    </header>
 
     <!-- Services Section -->
     <section id="mentorship">
@@ -122,7 +115,7 @@
                 <div class="page-video">
                     <!-- 16:9 aspect ratio -->
                     <div class="col-md-8 col-md-offset-2 embed-responsive embed-responsive-16by9 ">
-                      <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/5yBhLTgBU1Y?controls=1&autohide=0&showinfo=0"></iframe>
+                      <iframe class="embed-responsive-item" src='http://www.youtube.com/embed/5yBhLTgBU1Y?controls=1&amp;autohide=0&amp;showinfo=0'></iframe>
                     </div>
                 </div>
             </div>
@@ -147,10 +140,14 @@
                     <!-- <div id="infographic" class="EDGE-12834085"></div> -->
                 <!-- </div> -->
             <!-- </div> -->
+            <div class="col-md-12 embed-responsive embed-responsive-16by9">
+                <iframe src="infographic/MSIDE_INFOGRAPHIC_1.html" class="embed-responsive-item" width="980" marginwidth="0" height="350" marginheight="0" scrolling="no" frameborder="0"> </iframe>
+            </div>
         </div>
     </section>
     
-    <div id="infographic" class="EDGE-12834085"></div>
+    <!-- <div id="infographic" class="EDGE-12834085"></div> -->
+    
 
 
     <!-- Mentors Section -->
@@ -290,7 +287,7 @@
           </div>
         </div>
     </footer>
-
+    
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
@@ -304,7 +301,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-
+    
+    <script src="//localhost:35729/livereload.js"></script>
+    <!-- 
+    <script type="text/javascript" charset="utf-8" src="/js/infographic/MSIDE_INFOGRAPHIC_1_edgePreload.js"></script>    
+    <script type="text/javascript" charset="utf-8" src="/js/slider/MORNINGSIDE_edgePreload.js"></script>
+     -->
 </body>
 
 </html>

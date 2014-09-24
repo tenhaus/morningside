@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+	 height="400px" viewBox="0 0 1000 400" enable-background="new 0 0 1000 400" xml:space="preserve">
+<g id="Layer_1">
+	<path d="M612.922,402c0,6.627-5.373,12-12,12H395.665c-6.627,0-12-5.373-12-12l0.912-101.333c0-6.627,5.09-17.334,12-19.191
+		l101.499-24.681l103.759,24.681c6.666,2.357,12,12.564,12,19.191L612.922,402z"/>
+</g>
+<g id="NECK">
+	<rect x="477.04" y="242.127" fill="#6D0020" width="41.295" height="28.496"/>
+</g>
+<g id="shirt">
+	<polygon fill="#FFFFFF" points="497.375,270.812 476.335,299.169 474.502,263.837 476.335,250.837 	"/>
+	<polygon fill="#FFFFFF" points="498.312,270.812 519.265,299.169 521.099,263.837 519.265,250.837 	"/>
+	<polygon fill="#FFFFFF" points="476.168,298.337 498.668,276.169 519.335,298.502 498,414 	"/>
+	<polygon fill="#6D0020" points="497.835,271.502 498.75,419.062 484,340 495.544,290.902 488.168,284.335 	"/>
+	<polygon fill="#6D0020" points="498.144,271.502 497.188,418.875 511.854,339.842 500.435,290.902 507.811,284.335 	"/>
+	<rect x="497.562" y="271.688" fill="#6D0020" width="0.812" height="116.5"/>
+</g>
+</svg>
