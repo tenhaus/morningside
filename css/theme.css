@@ -83,25 +83,8 @@ header {
 header {
   background-image: none;
 }
-header .mix-slider {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  line-height: 200px;
-}
-header .mix-slider p {
-  font-size: 30px;
-  display: inline-block;
-  line-height: 1em;
-  vertical-align: middle;
-}
-header .mix-slider .slide {
-  height: 200px;
-}
-header .mix-slider .slide span {
-  color: #fab439;
-}
-header .mix-slider .slide.center {
-  background-color: #6c0322;
+.carousel-inner .item img {
+  margin: auto;
 }
 #slider_stage {
   margin-top: 80px;
