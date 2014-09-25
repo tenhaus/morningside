@@ -18,11 +18,14 @@
     <link href="css/template.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
 
+    <!-- Points of Interest -->
+    <!-- <link href="points-of-interest/css/reset.css" rel="stylesheet"> -->
+    <link href="points-of-interest/css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    <!-- 
+    <!--
     <style>
         .edgeLoad-EDGE-432563361 { visibility:hidden; }
         .edgeLoad-EDGE-12834085 { visibility:hidden; }
@@ -145,9 +148,9 @@
             </div>
         </div>
     </section>
-    
+
     <!-- <div id="infographic" class="EDGE-12834085"></div> -->
-    
+
 
 
     <!-- Mentors Section -->
@@ -160,7 +163,7 @@
                     <p class="section-body">Your Morningside Mentor is a professional adviser and personal advocate committed to helping you get the most out of your Morningside experience.</p>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-sm-12">
                     <div class="team-member">
@@ -172,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
@@ -247,16 +250,62 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/krone/exterior.jpg" alt="">
                     <p class="krone-image-caption" style="position: absolute; top:0px; right:20px;">academic village</p>
+                    <ul>
+                        <li class="cd-single-point">
+                            <a class="cd-img-replace" href="#0">More</a>
+                            <div class="cd-more-info cd-right"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+                                <p>The Morningside Mentorship program is based in the new Krone Advising Center on campus, a facility built from the ground up to support a new kind of advising. The building will become your home base in a world of opportunity.</p>
+                                <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                            </div>
+                        </li> <!-- .cd-single-point -->
+
+                        <li class="cd-single-point">
+                            <a class="cd-img-replace" href="#0">More</a>
+                            <div class="cd-more-info cd-left"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+                                <p>The Krone Advising Center is part of a new learning and mentoring facility on campus that also features two floors of state of the art classroom, a common area and meeting rooms.</p>
+                                <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                            </div>
+                        </li> <!-- .cd-single-point -->
+
+                        <!-- other points of interest here -->
+                    </ul>
                 </div>
             </div>
             <div class="row" style="margin-top: 20px;">
                 <div class="col-lg-6 col-sm-6">
-                    <img class="img-responsive" src="img/krone/BEAN_3.jpg" />
+                    <img class="img-responsive" src="img/krone/BEAN_3.jpg">
+
+                        <ul>
+                            <li class="cd-single-point" style="display:none;"></li>
+                            <li class="cd-single-point" style="display:none;"></li>
+                            <li class="cd-single-point">
+                                <a class="cd-img-replace" href="#0">More</a>
+                                <div class="cd-more-info cd-left"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+                                    <p>The entire second floor of the Krone Advising Center is dedicated to advising and mentoring. It features nine private advising offices and a meeting room. A 120-seat auditorium for presentations and events is on the first floor.</p>
+                                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                                </div>
+                            </li> <!-- .cd-single-point -->
+                        </ul>
+
+                    </img>
                 </div>
                 <div class="col-lg-6 col-sm-6">
                     <p class="krone-image-caption mall">mall level</p>
-                    <img class="img-responsive" src="img/krone/BEAN_2.jpg" />
                     <img class="img-responsive" src="img/krone/BEAN_1.jpg" />
+                    <img class="img-responsive" src="img/krone/BEAN_2.jpg">
+                        <ul>
+                            <li class="cd-single-point" style="display:none;"></li>
+                            <li class="cd-single-point" style="display:none;"></li>
+                            <li class="cd-single-point" style="display:none;"></li>
+                            <li class="cd-single-point">
+                                <a class="cd-img-replace" href="#0">More</a>
+                                <div class="cd-more-info cd-right"> <!-- 4 classes available: cd-top, cd-bottom, cd-left, cd-right  -->
+                                    <p>The Commons offers a large open space that joins the advising center and new classroom building. It’s airy and open—the perfect place to relax between classes, meet friends and attend events.</p>
+                                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                                </div>
+                            </li> <!-- .cd-single-point -->
+                        </ul>
+                    </img>
                 </div>
             </div>
         </div>
@@ -287,7 +336,7 @@
           </div>
         </div>
     </footer>
-    
+
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
@@ -301,10 +350,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-    
+    <script src="points-of-interest/js/modernizr.js"></script>
+    <script src="points-of-interest/js/main.js"></script>
+
     <script src="//localhost:35729/livereload.js"></script>
-    <!-- 
-    <script type="text/javascript" charset="utf-8" src="/js/infographic/MSIDE_INFOGRAPHIC_1_edgePreload.js"></script>    
+    <!--
+    <script type="text/javascript" charset="utf-8" src="/js/infographic/MSIDE_INFOGRAPHIC_1_edgePreload.js"></script>
     <script type="text/javascript" charset="utf-8" src="/js/slider/MORNINGSIDE_edgePreload.js"></script>
      -->
 </body>
