@@ -11,7 +11,7 @@ $(function() {
         var navSize = $(".navbar").height();
         navSize += parseInt($(".navbar").css('padding-top'));
         navSize += parseInt($(".navbar").css('padding-bottom'));
-        
+
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 80
         }, 1500, 'easeInOutExpo');
@@ -28,3 +28,51 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+$(document).ready(function() {
+
+	$('.slider-top').slick({
+        draggable: false,
+        autoplay: false,
+        pauseOnHover: false,
+        autoplaySpeed: 6000,
+        cemterMode: true
+	});
+
+    $('.slider-middle').slick({
+        draggable: false,
+        autoplay: false,
+        pauseOnHover: false,
+        // rtl: true,
+        cemterMode: true
+
+    });
+
+    $('.slider-bottom').slick({
+        draggable: false,
+        autoplay: false,
+        pauseOnHover: false,
+        autoplaySpeed: 6000,
+        cemterMode: true
+    });
+
+    animateSlider();
+});
+
+var slideAlt = false;
+
+function animateSlider()
+{
+    $(".slider-middle").slickPrev();
+
+    if(slideAlt) {
+
+        $(".slider-top").slickNext();
+        $(".slider-bottom").slickNext();
+    }
+
+
+    slideAlt = !slideAlt;
+    setTimeout(animateSlider, 2500);
+}

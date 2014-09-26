@@ -1,6 +1,12 @@
 header {
   margin-top: 140px;
 }
+.slick-slider {
+  margin-bottom: 0px !important;
+}
+.slick-slider div img {
+  margin: auto;
+}
 .navbar-default {
   padding: 10px;
   background-color: white;
