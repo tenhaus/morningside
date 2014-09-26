@@ -37,6 +37,8 @@ $(document).ready(function() {
 
 	$('.slider-top').slick({
         draggable: false,
+        swipe: false,
+        touchMove: false,
         autoplay: false,
         pauseOnHover: false,
         autoplaySpeed: 6000,
@@ -50,6 +52,8 @@ $(document).ready(function() {
 
     $('.slider-middle').slick({
         draggable: false,
+        swipe: false,
+        touchMove: false,
         autoplay: false,
         pauseOnHover: false,
         // rtl: true,
@@ -63,6 +67,8 @@ $(document).ready(function() {
 
     $('.slider-bottom').slick({
         draggable: false,
+        swipe: false,
+        touchMove: false,
         autoplay: false,
         pauseOnHover: false,
         autoplaySpeed: 6000,
