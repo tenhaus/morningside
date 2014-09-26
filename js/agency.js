@@ -37,7 +37,11 @@ $(document).ready(function() {
         autoplay: false,
         pauseOnHover: false,
         autoplaySpeed: 6000,
-        cemterMode: true
+        cemterMode: true,
+        onInit: function() {
+            $('.slider-top').find(".slider-item").toggleClass("hidden")
+        }
+
 	});
 
     $('.slider-middle').slick({
@@ -45,7 +49,10 @@ $(document).ready(function() {
         autoplay: false,
         pauseOnHover: false,
         // rtl: true,
-        cemterMode: true
+        cemterMode: true,
+        onInit: function() {
+            $('.slider-middle').find(".slider-item").toggleClass("hidden")
+        }
 
     });
 
@@ -54,7 +61,10 @@ $(document).ready(function() {
         autoplay: false,
         pauseOnHover: false,
         autoplaySpeed: 6000,
-        cemterMode: true
+        cemterMode: true,
+        onInit: function() {
+            $('.slider-bottom').find(".slider-item").toggleClass("hidden")
+        }
     });
 
     animateSlider();
