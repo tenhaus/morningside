@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 			options: {
 				livereload: true,
 			},
-			files: ['less/**/*.less', 'index.html'],
+			files: ['less/**/*.less', 'index.html', 'email.html'],
 			tasks: 'less:development',
 		},
 
